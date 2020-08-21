@@ -4,6 +4,18 @@
     <title>Orientation Test</title>
   </head>
   <body>
-    <h1>This is just a test</h1>
+    <h1>Orientation Test</h1>
+    <p id="instructions">Lay your phone flat on the table, and then press begin</p>
+    <canvas id="c" width="400" height="400"></canvas>
+    <p>Alpha: <span id="alpha"></span></p>
+    <p>Beta: <span id="beta"></span></p>
+    <p>Gamma: <span id="gamma"></span></p>
+    <p>Heading: <span id="heading"></span></p>
+    <p>Accuracy: <span id="acc"></span></p>
+    <button type="button" id="begin">Begin</button>
+    <p id="debug"></p>
+    <p style="font-size: 12px">This currently only works on devices running iOS 13+ and iPadOS.</p>
+    <p style="font-size: 12px">Pre-alpha Stage 1 version 7.1</p>
+    <script src="script.js"></script>
   </body>
 </html>
